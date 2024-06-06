@@ -14,7 +14,6 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            jessedearing/mysqld_exporter
             ghcr.io/jessedearing/mysqld_exporter
           tags: |
             type=schedule
