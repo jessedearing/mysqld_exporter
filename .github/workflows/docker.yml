@@ -2,7 +2,7 @@ name: Docker Buid and Push
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
